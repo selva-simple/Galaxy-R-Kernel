@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-spdif.o := /home/selva/android/kernel/Android_Toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o sound/soc/codecs/snd-soc-spdif.o sound/soc/codecs/spdif_transciever.o 

@@ -1,0 +1,1 @@
+cmd_sound/soc/tegra/snd-soc-tegra20-das.o := /home/selva/android/kernel/Android_Toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o sound/soc/tegra/snd-soc-tegra20-das.o sound/soc/tegra/tegra20_das.o 

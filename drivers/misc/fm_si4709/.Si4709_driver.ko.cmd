@@ -1,0 +1,1 @@
+cmd_drivers/misc/fm_si4709/Si4709_driver.ko := /home/selva/android/kernel/Android_Toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/selva/android/kernel/scripts/module-common.lds --build-id  -o drivers/misc/fm_si4709/Si4709_driver.ko drivers/misc/fm_si4709/Si4709_driver.o drivers/misc/fm_si4709/Si4709_driver.mod.o
