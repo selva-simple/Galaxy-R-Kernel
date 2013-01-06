@@ -3,9 +3,10 @@ cmd_sound/soc/codecs/wm8994_samsung.o := /home/selva/android/kernel/Android_Tool
 source_sound/soc/codecs/wm8994_samsung.o := sound/soc/codecs/wm8994_samsung.c
 
 deps_sound/soc/codecs/wm8994_samsung.o := \
+    $(wildcard include/config/mach/n1/chn.h) \
+    $(wildcard include/config/snd/voodoo.h) \
     $(wildcard include/config/video/tv20.h) \
     $(wildcard include/config/snd/s5p/wm8994/master.h) \
-    $(wildcard include/config/mach/n1/chn.h) \
     $(wildcard include/config/mach/bose/att.h) \
     $(wildcard include/config/mach/n1.h) \
     $(wildcard include/config/pm.h) \
@@ -671,6 +672,19 @@ deps_sound/soc/codecs/wm8994_samsung.o := \
   arch/arm/mach-tegra/include/mach/tegra_das.h \
   sound/soc/codecs/wm8994_def.h \
   arch/arm/mach-tegra/include/mach/pinmux.h \
+  sound/soc/codecs/wm8994_voodoo.h \
+    $(wildcard include/config/mach/herring.h) \
+    $(wildcard include/config/samsung/galaxys.h) \
+    $(wildcard include/config/samsung/galaxysb.h) \
+    $(wildcard include/config/samsung/captivate.h) \
+    $(wildcard include/config/samsung/vibrant.h) \
+    $(wildcard include/config/samsung/fascinate.h) \
+    $(wildcard include/config/samsung/epic.h) \
+    $(wildcard include/config/fb/s3c/ams701ka.h) \
+    $(wildcard include/config/kor/model/m180s.h) \
+    $(wildcard include/config/m110s.h) \
+    $(wildcard include/config/mach/samsung/variation/tegra.h) \
+    $(wildcard include/config/tdmb/t3700.h) \
 
 sound/soc/codecs/wm8994_samsung.o: $(deps_sound/soc/codecs/wm8994_samsung.o)
 
